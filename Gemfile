@@ -16,6 +16,7 @@ gem "turbolinks", "~> 5"
 gem "jbuilder", "~> 2.5"
 
 group :development, :test do
+  gem "rspec-rails", "~> 3.5"
   gem "byebug", platform: :mri
 end
 
@@ -24,6 +25,23 @@ group :development do
   gem "listen", "~> 3.0.5"
   gem "spring"
   gem "spring-watcher-listen", "~> 2.0.0"
+end
+
+group :test do
+  gem "guard",                    "2.13.0"
+  gem "guard-minitest",           "2.4.4"
+  gem "minitest-reporters",       "1.1.14"
+  gem "rails-controller-testing", "1.0.2"
+  gem "rspec-collection_matchers"
+  gem "rubocop", "0.49.1", require: false
+  gem "rubocop-checkstyle_formatter", require: false
+  gem "scss_lint", require: false
+  gem "scss_lint_reporter_checkstyle", require: false
+  gem "rails_best_practices"
+  gem "brakeman", require: false
+  gem "eslint-rails", git: "https://github.com/octoberstorm/eslint-rails"
+  gem "reek"
+  gem "rspec-activemodel-mocks"
 end
 
 gem "tzinfo-data", platforms: [:mingw, :mswin, :x64_mingw, :jruby]
