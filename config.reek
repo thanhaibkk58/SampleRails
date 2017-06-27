@@ -2,3 +2,7 @@ IrresponsibleModule:
   enabled: false
 DuplicateMethodCall:
   max_calls: 2
+FeatureEnvy:
+  enabled: false
+UncommunicativeVariableName:
+  enabled: false

@@ -6,7 +6,7 @@ git_source(:github) do |repo_name|
 end
 
 gem "rails", "~> 5.0.4"
-gem 'bootstrap-sass', '3.3.7'
+gem "bootstrap-sass", "3.3.7"
 gem "sqlite3"
 gem "puma", "~> 3.0"
 gem "sass-rails", "~> 5.0"
@@ -16,6 +16,7 @@ gem "jquery-rails"
 gem "turbolinks", "~> 5"
 gem "jbuilder", "~> 2.5"
 gem "therubyracer"
+gem "bcrypt", "3.1.11"
 
 group :development, :test do
   gem "rspec-rails", "~> 3.5"
@@ -30,9 +31,9 @@ group :development do
 end
 
 group :test do
-  gem "guard",                    "2.13.0"
-  gem "guard-minitest",           "2.4.4"
-  gem "minitest-reporters",       "1.1.14"
+  gem "guard", "2.13.0"
+  gem "guard-minitest", "2.4.4"
+  gem "minitest-reporters", "1.1.14"
   gem "rails-controller-testing", "1.0.2"
   gem "rspec-collection_matchers"
   gem "rubocop", "0.49.1", require: false
