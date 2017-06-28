@@ -31,3 +31,9 @@ SpaceInsideHashLiteralBraces:
   EnforcedStyleForEmptyBraces: space
 Layout/TrailingWhitespace:
   Enabled: false
+AlignParameters:
+  EnforcedStyle: with_fixed_indentation
+StringLiterals:
+  Enabled: false
+Style/MethodDefParentheses:
+  Enabled: false

@@ -9,7 +9,7 @@ class User < ApplicationRecord
     uniqueness: {case_sensitive: false}
   validates :password, presence: true, length: {minimum: 6}
   validates :name, presence: true, length: {maximum: 50}
-  
+
   before_save :downcase_email
 
   private
