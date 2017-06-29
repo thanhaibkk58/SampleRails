@@ -7,8 +7,13 @@ en:
     header:
       home: "Home"
       help: "Help"
-      login: "Log in"
-      sampleapp: "sample app"
+      login: "Log In"
+      logout: "Log Out"
+      sampleapp: "Sample App"
+      users: "User"
+      settings: "Settings"
+      profile: "Profile"
+      account: "Account"
     footer:
       about: "About"
       contact: "Contact"
@@ -48,6 +53,13 @@ en:
       confirm: "Confirmation"
       create: "Create new Account"
       welcome: "Welcome to the Sample App!"
+  sessions:
+    new:
+      login: "Log in"
+      signup: "Sign up now!"
+      create: "New user? %{signup}"
+    create:
+      invalid: "Invalid email/password combination"
   shared:
     error_messages:
       list_error: "The form contains %{count_error}"
