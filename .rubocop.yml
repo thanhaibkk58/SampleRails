@@ -24,7 +24,7 @@ Metrics/LineLength:
 
 Style/EmptyMethod:
   Enabled: false
-Style/AlignHash:
+Layout/AlignHash:
   Enabled: false
 SpaceInsideHashLiteralBraces:
   EnforcedStyle: no_space
@@ -38,4 +38,6 @@ StringLiterals:
 Style/MethodDefParentheses:
   Enabled: false
 Metrics/AbcSize:
+  Enabled: false
+Style/ConditionalAssignment:
   Enabled: false

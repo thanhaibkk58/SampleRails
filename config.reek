@@ -1,12 +1,14 @@
 IrresponsibleModule:
   enabled: false
 DuplicateMethodCall:
-  max_calls: 2
+  enabled: false
 FeatureEnvy:
   enabled: false
 UncommunicativeVariableName:
   enabled: false
-  
+TooManyStatements:
+  enabled: false
+
 "app/controllers":
   IrresponsibleModule:
     enabled: false
