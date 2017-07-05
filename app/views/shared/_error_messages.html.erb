@@ -1,4 +1,4 @@
-<% if user.errors.any? %>
+<% if @user.errors.any? %>
   <div id="error_explanation">
     <div class="alert alert-danger">
       <%= t ".list_error", count_error: pluralize(user.errors.count, t(".error")) %>
