@@ -52,12 +52,14 @@ en:
       content: "Find me in app/views/users/new.html.erb"
       confirm: "Confirmation"
       create: "Create new Account"
+    create:
       welcome: "Welcome to the Sample App!"
   sessions:
     new:
       login: "Log in"
       signup: "Sign up now!"
       create: "New user? %{signup}"
+      remember: "Remember me on this computer"
     create:
       invalid: "Invalid email/password combination"
   shared:
