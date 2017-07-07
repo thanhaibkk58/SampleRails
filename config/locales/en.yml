@@ -46,6 +46,11 @@ en:
       contact_page: "contact page"
       content: "Contact the Ruby on Rails Tutorial about the sample app at the %{contact_page}."
   users:
+    index:
+      all: "All Users"
+    user:
+      delete: "Delete"
+      delete_require: "You sure?"
     new:
       signup: "Sign Up"
       user: "User"
@@ -54,6 +59,19 @@ en:
       create: "Create new Account"
     create:
       welcome: "Welcome to the Sample App!"
+    edit:
+      update: "Update"
+      edit_user: "Edit User"
+      change: "Change"
+      update_profile: "Update your profile"
+    update:
+      profile: "Profile updated"
+    destroy:
+      delete: "User deleted"
+    logged_in_user:
+      login_require: "Please login"
+    find_user:
+      not_found: "User not found"
   sessions:
     new:
       login: "Log in"
