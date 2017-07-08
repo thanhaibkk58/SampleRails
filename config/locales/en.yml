@@ -59,6 +59,7 @@ en:
       create: "Create new Account"
     create:
       welcome: "Welcome to the Sample App!"
+      check_mail: "Please check your email to activate your account."
     edit:
       update: "Update"
       edit_user: "Edit User"
@@ -80,7 +81,24 @@ en:
       remember: "Remember me on this computer"
     create:
       invalid: "Invalid email/password combination"
+      message: "Account not activated. 
+        Check your email for the activation link."
   shared:
     error_messages:
       list_error: "The form contains %{count_error}"
       error: "error"
+  account_activations:
+    edit:
+      activated: "Account activated!"
+      invalid: "Invalid activation link"
+  user_mailer:
+    account_activation:
+      activate: "Activate"
+      sampleapp: "Sample App"
+      account_active: "Account activation"
+      hi: "Hi!"
+      content: "Hi %{user}! Welcome to the Sample App! 
+        Click on the link below to activate your account:"
+    password_reset:
+      pass_reset: "Password Reset"
+      content: "Hello! Password Reset"
