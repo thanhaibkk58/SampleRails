@@ -83,3 +83,6 @@ Metrics/AbcSize:
   Enabled: false
 Style/ConditionalAssignment:
   Enabled: false
+Layout/IndentationConsistency:
+  Description: "Keep indentation straight."
+  Enabled: false
