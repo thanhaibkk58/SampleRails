@@ -5,6 +5,7 @@ class User < ApplicationRecord
 
   has_secure_password
 
+  has_many :microposts, dependent: :destroy
   validates :email, format: {with: VALID_EMAIL_REGEX},
     presence: true,
     length: {maximum: 255},
