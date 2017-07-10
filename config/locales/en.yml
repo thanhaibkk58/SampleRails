@@ -67,6 +67,8 @@ en:
       update_profile: "Update your profile"
     update:
       profile: "Profile updated"
+    show:
+      micropost: "Micropost"
     destroy:
       delete: "User deleted"
     logged_in_user:
@@ -88,6 +90,14 @@ en:
     error_messages:
       list_error: "The form contains %{count_error}"
       error: "error"
+    microposts:
+      time_post: "Post %{time} ago."
+    microposts_form:
+      post: "Post"
+      compose: "Compose new micropost..."
+    user_info:
+      view_profile: "View my profile"
+      micropost: "micropost"
   account_activations:
     edit:
       activated: "Account activated!"
@@ -122,3 +132,6 @@ en:
     new:
       forgot_password: "Forgot password"
       submit: "Submit"
+  microposts:
+    create:
+      created: "Micropost created!"
