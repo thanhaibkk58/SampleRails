@@ -118,6 +118,11 @@ footer {
 }
 
 aside {
+  textarea {
+    height: 100px;
+    margin-bottom: 5px;
+  }
+
   section {
     margin-top: 20px;
     padding: 10px 0;
@@ -144,11 +149,6 @@ aside {
       margin-top: 0;
       text-align: left;
     }
-  }
-
-  textarea {
-    height: 100px;
-    margin-bottom: 5px;
   }
 }
 

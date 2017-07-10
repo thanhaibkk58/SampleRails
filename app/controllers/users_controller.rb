@@ -62,9 +62,9 @@ class UsersController < ApplicationController
   end
 
   def find_user
-    @user = User.find_by id: params[:id]
+    @user = User.find_by email: params[:email]
     return if @user
-    flash[:danger] = t ".notfound"
-    redirect_to root_path
+    redirect_to root_url
+    flash[:info] = t ".notfound"
   end
 end
