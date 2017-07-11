@@ -28,3 +28,5 @@ config/environments/*.local.yml
 /.framgia-ci-reports
 .framgia-ci-result.temp.yml
 /config/application.yml
+/public/uploads
+/public/javascripts/

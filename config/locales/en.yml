@@ -1,5 +1,6 @@
 en:
   hello: "Hello world"
+  image_too_big: "Maximum file size is 5MB. Please choose a smaller file."
   layouts:
     application:
       title: "Ruby on Rails Tutorial Sample App"
@@ -29,6 +30,7 @@ en:
       content: This is the home page for the %{rort} sample application.
       signup: "Sign up now!"
       logo: "Rails logo"
+      feed: "Micropost Feed"
     about:
       about: "About"
       ror: "Ruby on Rails"
@@ -74,7 +76,7 @@ en:
     logged_in_user:
       login_require: "Please login"
     find_user:
-      not_found: "User not found"
+      notfound: "User does not exist!"
   sessions:
     new:
       login: "Log in"
@@ -90,11 +92,14 @@ en:
     error_messages:
       list_error: "The form contains %{count_error}"
       error: "error"
-    microposts:
+    micropost:
       time_post: "Post %{time} ago."
-    microposts_form:
+      delete: "Delete"
+      you_sure: "You sure?"
+    micropost_form:
       post: "Post"
       compose: "Compose new micropost..."
+      resize: Maximum file size is 5MB. Please choose a smaller file."
     user_info:
       view_profile: "View my profile"
       micropost: "micropost"
@@ -122,12 +127,12 @@ en:
       email_notfound: "Email address not found"
     update:
       password_reset: "Password has been reset."
-      empty: "can't be empty"
+      empty: "Can't be empty"
     check_expiration:
       expired: "Password reset has expired."
     edit:
       reset_password: "Reset password"
-      update_passwod: "Update password"
+      update_password: "Update password"
       confirmation: "Confirmation"
     new:
       forgot_password: "Forgot password"
@@ -135,3 +140,7 @@ en:
   microposts:
     create:
       created: "Micropost created!"
+    destroy:
+      deleted: "Micropost deleted"
+    picture_size:
+      resize: "Should be less than 5MB"
