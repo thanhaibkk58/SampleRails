@@ -8,6 +8,10 @@ UncommunicativeVariableName:
   enabled: false
 TooManyStatements:
   enabled: false
+TooManyMethods:
+  enabled: false
+TooManyInstanceVariables:
+  enabled: false
 
 "app/controllers":
   IrresponsibleModule:

@@ -77,6 +77,17 @@ en:
       login_require: "Please login"
     find_user:
       notfound: "User does not exist!"
+    following:
+      following: "Following"
+    followers:
+      followers: "Followers"
+    follow:
+      _follow: "Follow"
+    unfollow:
+      _unfollow: "Unfollow"
+    show_follow:
+      view_profile: "View my profile"
+      microposts: "Microposts:"
   sessions:
     new:
       login: "Log in"
@@ -103,6 +114,9 @@ en:
     user_info:
       view_profile: "View my profile"
       micropost: "micropost"
+    stats:
+      followers: "<strong>%{followers_count}</strong> followers"
+      following: "<strong>%{following_count}</strong> following"
   account_activations:
     edit:
       activated: "Account activated!"

@@ -37,6 +37,8 @@ class UsersController < ApplicationController
 
   def show
     @microposts = @user.microposts.paginate page: params[:page]
+    @follow = current_user.active_relationships.build
+    @unfollow = current_user.active_relationships.find_by followed_id: @user.id
     redirect_to root_path unless @user
   end
 
@@ -44,10 +46,6 @@ class UsersController < ApplicationController
     @user.destroy
     flash[:success] = t ".delete"
     redirect_to users_url
-  end
-
-  def correct_user
-    redirect_to root_url unless @user.current_user? current_user
   end
 
   private
@@ -62,9 +60,13 @@ class UsersController < ApplicationController
   end
 
   def find_user
-    @user = User.find_by email: params[:email]
+    @user = User.find_by id: params[:id]
     return if @user
     redirect_to root_url
     flash[:info] = t ".notfound"
+  end
+
+  def correct_user
+    redirect_to root_url unless @user.current_user? current_user
   end
 end
